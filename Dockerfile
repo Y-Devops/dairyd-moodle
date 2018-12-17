@@ -2,7 +2,7 @@
 # Dockerfile for moodle instance. more dockerish version of https://github.com/sergiogomez/docker-moodle
 # Forked from Jon Auer's docker version. https://github.com/jda/docker-moodle
 FROM dairyd/ubuntu:xenial
-MAINTAINER Leo Luduena <lleo@linux.com>
+MAINTAINER devops@yungasdevops.co
 
 VOLUME ["/var/moodledata"]
 EXPOSE 80 443
