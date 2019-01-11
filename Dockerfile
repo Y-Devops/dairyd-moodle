@@ -2,7 +2,8 @@
 # Dockerfile for moodle instance. more dockerish version of https://github.com/sergiogomez/docker-moodle
 # Forked from Jon Auer's docker version. https://github.com/jda/docker-moodle
 FROM dairyd/ubuntu:xenial
-MAINTAINER devops@yungasdevops.co
+
+LABEL maintainer="24.7@yungasdevops.com"
 
 # Keep upstart from complaining
 # RUN dpkg-divert --local --rename --add /sbin/initctl
