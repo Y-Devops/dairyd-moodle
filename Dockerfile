@@ -3,7 +3,9 @@
 # Forked from Jon Auer's docker version. https://github.com/jda/docker-moodle
 FROM dairyd/ubuntu:xenial
 
-LABEL maintainer="24.7@yungasdevops.com"
+LABEL maintainer="7of9@ydevops.com"
+
+ENV REFRESHED_AT 2019-08-05
 
 # Keep upstart from complaining
 # RUN dpkg-divert --local --rename --add /sbin/initctl
